@@ -92,7 +92,7 @@ require 'launchy'
 
 # CSV.read the Solar System.csv file; it's our database for the game
 # The options will give us a hash, convertng the headers into symbols
-$solar_system_data = CSV.read("Solar System.csv", headers: true, header_converters: :symbol)
+$solar_system_data = CSV.read("Solar_System.csv", headers: true, header_converters: :symbol)
 ap $solar_system_data.class # CSV::Table < Object
 ap "WELCOME TO THE SOLAR SYSTEM!"
 

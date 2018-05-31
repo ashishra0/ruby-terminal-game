@@ -1,6 +1,6 @@
 require 'csv'
 require 'awesome_print'
-# require 'pry'
+require 'pry'
 
 ##
 ## Part 1 -- Creating CSV & Reading
@@ -22,8 +22,8 @@ CSV.open("planet_data.csv", "w") do |file|
   # add all of the planets from planets array
   planets.each do |planet|
     file << planet
+    # binding.pry
   end
-  # binding.pry
 end
 
 # CSV.read outputs an array of arrays

@@ -9,10 +9,20 @@ GEM
       rmagick (~> 2.15, >= 2.15.2)
       ruby-terminfo (~> 0.1, >= 0.1.1)
       tco (~> 0.1, >= 0.1.8)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
     csv (1.0.2)
     docopt (0.6.1)
+    faker (1.8.7)
+      i18n (>= 0.7)
+    i18n (1.0.1)
+      concurrent-ruby (~> 1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
+    method_source (0.9.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     public_suffix (3.0.2)
     rmagick (2.16.0)
     ruby-terminfo (0.1.1)
@@ -25,7 +35,9 @@ DEPENDENCIES
   awesome_print
   catpix
   csv
+  faker
   launchy
+  pry
 
 BUNDLED WITH
    1.16.1
